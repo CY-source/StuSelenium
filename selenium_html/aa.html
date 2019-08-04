@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <style type="text/css">
+            .draggable{position:relative; padding:.5em; float:left;height:100px;width:100px; background:red;}
+            #droppable{position:absolute; right: 20px; float: right;
+               height:200px;width:200px;display:block;}
+            .dropped{background: blue;}
+            .undropped{background:yellow;}
+        </style>
+        <div class='draggable'>
+        </div>
+        <div name='droppable' class='undropped'>
+            drop on this element
+        </div>
+        <script type="text/javascript" src="./jquery.min.js"></script> 
+        <script type="text/javascript" src="./jquery-ui.min.js"></script> 
+        <script type="text/javascript">                                        
+            $(document).ready(function() {
+                $('.draggable').draggable();
+                $('#droppable').droppable({
+                    drop: function(ev, ui){
+                        $(this).removeClass('undropped').addClass('dropped');
+                    },
+                }); 
+            });
+        </script>
+    </body>
+</html>
