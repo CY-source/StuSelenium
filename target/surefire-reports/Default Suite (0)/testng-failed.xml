@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default Suite (0)]">
+  <test name="Selenium_Demo01(failed)">
+    <classes>
+      <class name="com.stu.testng01.TestNgDemo02">
+        <methods>
+          <include name="assertEqualTest"/>
+        </methods>
+      </class> <!-- com.stu.testng01.TestNgDemo02 -->
+    </classes>
+  </test> <!-- Selenium_Demo01(failed) -->
+</suite> <!-- Failed suite [Default Suite (0)] -->

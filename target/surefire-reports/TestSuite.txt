@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.687 sec <<< FAILURE! - in TestSuite
+assertEqualTest(com.stu.testng01.TestNgDemo02)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [cde] but found [abc]
+	at com.stu.testng01.TestNgDemo02.assertEqualTest(TestNgDemo02.java:19)
+

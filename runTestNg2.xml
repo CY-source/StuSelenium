@@ -3,10 +3,7 @@
 <suite name="Default Suite" >
   <test name="Selenium_Demo01">
     <classes>
-      <class name="com.stu.webdriver03.TestNgDemo01">
-        <methods>
-          <exclude name="testCase2"></exclude>
-        </methods>
+      <class name="com.stu.testng01.TestNgDemo02">
       </class> <!-- com.stu.webdriver03.GridTest -->
 
     </classes>
